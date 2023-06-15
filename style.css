@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #6473cc;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.nav{
+    flex: 1;
+    text-align: right;
+}
+.nav ul {
+    display:inline-block ;
+    list-style: none;
+
+} 
+.navbar ul li{
+   display: inline-block;
+   margin-right: 40px;  
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav .logo h1{
+    color: #fff;
+
+}
